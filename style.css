@@ -1,0 +1,93 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 580px;
+    padding: 5px 5px;
+    border: 0.3px solid black;
+}
+
+.banner {
+    visibility: hidden;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(193, 223, 193);
+    display: flex;
+    justify-content: center;
+    width: 580px;
+    padding: 5px;
+    height: 20px;
+    align-items: center;
+}
+
+.mainImage {
+    padding: 7px 5px;
+}
+
+.banner img {
+    padding: 15px 10px;
+    margin: 0px;
+}
+
+.nameTextField {
+    display: flex;
+    width: 300px;
+}
+
+.gender {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 5px;
+    margin: 8px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+}
+
+.invalidField {
+    border: 1px solid red !important;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+    color: blue;
+    padding: 0px 6px;
+}
+
+.message {
+    width: 300px;
+    height: 150px;
+}
+
+input[type=text] {
+    padding: 5px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    color: grey;
+}
+
+input[type=text]:focus {
+    border-color: #333;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background-color: rgb(157, 157, 207);
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*align the gender class
+make a border around the form
+align the text in the message box
+make the message have multiple lines
+visibility banner*/

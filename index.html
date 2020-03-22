@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id='banner' class='banner'>
+        <img src="check.png" width="20px" height="20px">
+        <p>Thank you for contacting us, <span id='contactName'></span>!</p>
+        <img src="close.png" width="20px" height="20px">
+    </div>
+    <form name="form" method="post" onsubmit="return processForm();">
+
+        <div class="formData">
+            <div>
+                <input class="nameTextField" type="text" name="firstName" placeholder="First Name">
+                <input class="nameTextField" type="text" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="gender" id='genderDiv'>
+                <label>Gender</label>
+                <div class=radio>
+                    <input type="radio" name="gender" value="Male">M</input>
+                    <input type="radio" name="gender" value="Female">F</input>
+                </div>
+            </div>
+
+            <input class=message type="text" name="message" placeholder="Your message here..."></input>
+            <div class=submit>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+        <img class="mainImage" src="header.jpg" height="280px" width="250px">
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
